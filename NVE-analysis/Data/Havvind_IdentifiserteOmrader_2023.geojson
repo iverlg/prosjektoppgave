@@ -1,0 +1,523 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Havvind_IdentifiserteOmrader_2023",
+	"crs" : {
+		"type" : "name",
+		"properties" : {
+			"name" : "EPSG:25833"
+		}
+	},
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 288265.8557000003, 7300282.748100001 ],
+						[ 224237.20340000046, 7305916.437399998 ],
+						[ 182859.7012999999, 7320263.3288 ],
+						[ 233053.3883999994, 7424513.2419 ],
+						[ 330669.46, 7384859.0118 ],
+						[ 288265.8557000003, 7300282.748100001 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordvest A",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 11307,
+				"avstandFastlandMin_km" : 37,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordvestA",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 42776.53789999988, 7054017.427099999 ],
+						[ 76301.7328000004, 7147047.7338999985 ],
+						[ 146446.57249999983, 7138296.174600001 ],
+						[ 130531.10049999965, 7119174.3993999995 ],
+						[ 86170.83320000023, 7044024.160599998 ],
+						[ 42776.53789999988, 7054017.427099999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordvest C",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 5582,
+				"avstandFastlandMin_km" : 38,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordvestC",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -86742.15550000034, 6967159.836899999 ],
+						[ -72850.58000000019, 6947297.154800001 ],
+						[ -89344.15909999958, 6866400.172499999 ],
+						[ -99838.13399999973, 6876917.8473999975 ],
+						[ -100353.80289999943, 6967498.835700002 ],
+						[ -86742.15550000034, 6967159.836899999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind A",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 1884,
+				"avstandFastlandMin_km" : 42,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindA",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -6359.742600000463, 6395778.013 ],
+						[ 25440.617899999896, 6421217.8679 ],
+						[ 75794.77030000003, 6413126.174900002 ],
+						[ 109298.73400000005, 6412433.1186999995 ],
+						[ 110193.55800000014, 6405267.4775 ],
+						[ 79822.4537000006, 6394541.422599999 ],
+						[ 52999.97730000038, 6382951.9231 ],
+						[ -7828.703700000362, 6382866.2685 ],
+						[ -6359.742600000463, 6395778.013 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sønnavind A",
+				"anleggType" : "Flytende og bunnfast",
+				"omradeAreal_km2" : 2900,
+				"avstandFastlandMin_km" : 34,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SonnavindA",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -157400.06329999946, 6352932.4026999995 ],
+						[ -210526.73099999968, 6355474.2928 ],
+						[ -150956.16289999988, 6419116.423699999 ],
+						[ -157400.06329999946, 6352932.4026999995 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest C",
+				"anleggType" : "Bunnfast",
+				"omradeAreal_km2" : 1766,
+				"avstandFastlandMin_km" : 151,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestC",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 166452.71710000007, 7184421.414299998 ],
+						[ 150189.8561000005, 7167677.283500002 ],
+						[ 86518.40710000054, 7179167.8246 ],
+						[ 94579.77070000052, 7208054.377700003 ],
+						[ 154894.70129999978, 7202329.186999999 ],
+						[ 156347.60089999996, 7265020.921100002 ],
+						[ 177211.59460000036, 7255921.160700001 ],
+						[ 166452.71710000007, 7184421.414299998 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordvest B",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 3437,
+				"avstandFastlandMin_km" : 76,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordvestB",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -84637.61679999996, 6584886.877800001 ],
+						[ -113644.23180000007, 6589336.548800002 ],
+						[ -116291.96300000045, 6593152.6645 ],
+						[ -105330.7746, 6659339.8 ],
+						[ -83986.54229999986, 6655886.800399999 ],
+						[ -82063.58040000044, 6596329.441999999 ],
+						[ -84637.61679999996, 6584886.877800001 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind F",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 1989,
+				"avstandFastlandMin_km" : 7,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindF",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -130949.88140000019, 6432086.339600001 ],
+						[ -117931.08490000025, 6435864.7125 ],
+						[ -90516.85199999984, 6411040.800799998 ],
+						[ -105856.2633999997, 6396217.366199999 ],
+						[ -133780.27170000004, 6408873.4318 ],
+						[ -130949.88140000019, 6432086.339600001 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest E",
+				"anleggType" : "Flytende og bunnfast",
+				"omradeAreal_km2" : 1016,
+				"avstandFastlandMin_km" : 112,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestE",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -181218.94519999973, 6499643.426600001 ],
+						[ -144185.75009999995, 6461152.2317 ],
+						[ -159513.56959999958, 6447926.916799999 ],
+						[ -180776.28100000042, 6469211.109899999 ],
+						[ -214210.53720000002, 6476578.8024 ],
+						[ -202008.04989999987, 6490589.0656 ],
+						[ -181218.94519999973, 6499643.426600001 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest A",
+				"anleggType" : "Flytende og bunnfast",
+				"omradeAreal_km2" : 1456,
+				"avstandFastlandMin_km" : 122,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestA",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -128406.00409999955, 6780993.819499999 ],
+						[ -140207.77799999993, 6821048.354699999 ],
+						[ -99838.13399999973, 6876917.8473999975 ],
+						[ -86230.30979999993, 6863279.290699999 ],
+						[ -89728.34599999979, 6842526.868000001 ],
+						[ -96834.3044999995, 6843726.372000001 ],
+						[ -101916.4604000001, 6814328.4987 ],
+						[ -94686.64989999973, 6813111.272100001 ],
+						[ -100710.05570000026, 6777376.8614 ],
+						[ -128406.00409999955, 6780993.819499999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind B",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 2985,
+				"avstandFastlandMin_km" : 30,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindB",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -110785.57430000021, 6717473.474899999 ],
+						[ -126269.15469999984, 6720119.944499999 ],
+						[ -119424.49719999987, 6761650.026699999 ],
+						[ -128406.00409999955, 6780993.819499999 ],
+						[ -100710.05570000026, 6777376.8614 ],
+						[ -110785.57430000021, 6717473.474899999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind C",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 1064,
+				"avstandFastlandMin_km" : 41,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindC",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -74240.06350000005, 6719559.9608 ],
+						[ -83585.87029999972, 6714047.2343999995 ],
+						[ -95808.56960000016, 6716726.134400001 ],
+						[ -88010.71970000013, 6763270.489 ],
+						[ -78481.06259999971, 6761582.9658 ],
+						[ -74240.06350000005, 6719559.9608 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind D",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 734,
+				"avstandFastlandMin_km" : 19,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindD",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -131388.79629999935, 6390863.7974 ],
+						[ -112092.27489999961, 6362837.897399999 ],
+						[ -86861.84439999983, 6348212.113 ],
+						[ -80235.81819999963, 6328609.9388 ],
+						[ -110938.91669999971, 6316405.841900001 ],
+						[ -139791.51520000002, 6307063.352700001 ],
+						[ -135625.49550000008, 6391827.080600001 ],
+						[ -131388.79629999935, 6390863.7974 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest F",
+				"anleggType" : "Bunnfast",
+				"omradeAreal_km2" : 2702,
+				"avstandFastlandMin_km" : 151,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestF",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -169476.51219999965, 6421888.904100001 ],
+						[ -214393.71030000027, 6374179.777799999 ],
+						[ -224605.24859999947, 6432288.293 ],
+						[ -169232.7701000003, 6444703.673800001 ],
+						[ -169476.51219999965, 6421888.904100001 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest B",
+				"anleggType" : "Bunnfast",
+				"omradeAreal_km2" : 2179,
+				"avstandFastlandMin_km" : 152,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestB",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 952575.5028, 8022650.0265999995 ],
+						[ 973932.6457000001, 8016900.0266 ],
+						[ 983326.3077999997, 7992570.2705999985 ],
+						[ 901719.7088000004, 7996937.877599999 ],
+						[ 926371.5846999995, 8036709.732700001 ],
+						[ 945245.1343, 8038125.2489 ],
+						[ 952575.5028, 8022650.0265999995 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordavind B",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 2239,
+				"avstandFastlandMin_km" : 53,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordavindB",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 1145849.2893000005, 7992477.5872 ],
+						[ 1140375.1604000009, 7934115.3725999985 ],
+						[ 1062867.8381000003, 7964319.880199999 ],
+						[ 1081133.8279999997, 8017036.805799999 ],
+						[ 1145849.2893000005, 7992477.5872 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordavind A",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 4275,
+				"avstandFastlandMin_km" : 51,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordavindA",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 682677.9088000002, 7913876.465799999 ],
+						[ 631496.6123000003, 7885403.328400002 ],
+						[ 639467.7526999998, 7909859.766100002 ],
+						[ 609877.1914999997, 7909676.6473 ],
+						[ 600092.7736999998, 7966101.1296 ],
+						[ 623233.7498000002, 7975672.3549 ],
+						[ 682677.9088000002, 7913876.465799999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordavind D",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 4112,
+				"avstandFastlandMin_km" : 88,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordavindD",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 691690.2452999997, 7937594.716499999 ],
+						[ 646333.9528999998, 7981343.257599997 ],
+						[ 664890.5394000001, 7989278.640000001 ],
+						[ 699345.3214999996, 7957740.992400002 ],
+						[ 691690.2452999997, 7937594.716499999 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Nordavind C",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 1054,
+				"avstandFastlandMin_km" : 105,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/NordavindC",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -136856.11529999983, 6646722.941199998 ],
+						[ -120144.21559999965, 6661114.405200001 ],
+						[ -131832.10080000013, 6589823.0359000005 ],
+						[ -138606.25439999998, 6546207.9410999995 ],
+						[ -147772.4511000003, 6565686.109200001 ],
+						[ -149326.69539999962, 6587834.0909 ],
+						[ -136856.11529999983, 6646722.941199998 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Vestavind E",
+				"anleggType" : "Flytende",
+				"omradeAreal_km2" : 1475,
+				"avstandFastlandMin_km" : 51,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/VestavindE",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -165037.91050000023, 6328604.7214 ],
+						[ -175363.66830000002, 6295715.644400001 ],
+						[ -196637.2185000003, 6288656.678800001 ],
+						[ -204969.97369999997, 6328742.6658 ],
+						[ -181839.08750000026, 6333783.9693 ],
+						[ -165037.91050000023, 6328604.7214 ]
+					]
+				]
+			},
+			"properties" : {
+				"omradeNavn" : "Sørvest D",
+				"anleggType" : "Flytende og bunnfast",
+				"omradeAreal_km2" : 1215,
+				"avstandFastlandMin_km" : 221,
+				"nettsideURL" : "https://veiledere.nve.no/havvind/SorvestD",
+				"dataUttaksdato" : "20231025",
+				"eksportType" : "NVEs nedlastningsløsning"
+			}
+		}
+	]
+}
