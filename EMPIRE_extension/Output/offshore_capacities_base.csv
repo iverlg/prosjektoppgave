@@ -1,0 +1,37 @@
+﻿Node,GeneratorTechnology,area_km2,generatorMaxInstallCapacity in MW
+Moray Firth,Wind_offshr_grounded,1093.0,5465.0
+Firth of Forth,Wind_offshr_grounded,2106.0,10530.0
+Dogger Bank,Wind_offshr_grounded,3252.0,16260.0
+Hornsea,Wind_offshr_grounded,2411.0,12055.0
+Outer Dowsing,Wind_offshr_grounded,1253.0,6265.0
+Norfolk,Wind_offshr_grounded,1626.0,8130.0
+East Anglia,Wind_offshr_grounded,1351.0,6755.0
+Borssele,Wind_offshr_grounded,976.3833333333333,4881.916666666667
+Hollandsee Kust,Wind_offshr_grounded,1332.8333333333333,6664.166666666666
+Helgoländer Bucht,Wind_offshr_grounded,4582.125,22910.625
+Nordsøen,Wind_offshr_grounded,4022.0,20110.0
+Moray Firth,Wind_offshr_floating,2329.0,11645.0
+Firth of Forth,Wind_offshr_floating,5549.0,27745.0
+Nordvest A,Wind_offshr_floating,11307.0,56535.0
+Nordvest C,Wind_offshr_floating,5582.0,27910.0
+Vestavind A,Wind_offshr_floating,1884.0,9420.0
+Sønnavind A,Wind_offshr_floating,2900.0,14500.0
+Sørvest C,Wind_offshr_grouned,1766.0,8830.0
+Nordvest B,Wind_offshr_floating,3437.0,17185.0
+Vestavind F,Wind_offshr_floating,1989.0,9945.0
+Vestavind B,Wind_offshr_floating,2985.0,14925.0
+Vestavind C,Wind_offshr_floating,1064.0,5320.0
+Vestavind D,Wind_offshr_floating,734.0,3670.0
+Sørvest F,Wind_offshr_grouned,2702.0,13510.0
+Sørvest B,Wind_offshr_grouned,2179.0,10895.0
+Nordavind B,Wind_offshr_floating,2239.0,11195.0
+Nordavind A,Wind_offshr_floating,4275.0,21375.0
+Nordavind D,Wind_offshr_floating,4112.0,20560.0
+Nordavind C,Wind_offshr_floating,1054.0,5270.0
+Vestavind E,Wind_offshr_floating,1475.0,7375.0
+Sørvest E,Wind_offshr_floating,1016.0,5080.0
+Sørvest A,Wind_offshr_floating,1456.0,7280.0
+Sørvest D,Wind_offshr_floating,1215.0,6075.0
+Sørvest E,Wind_offshr_grouned,1016.0,5080.0
+Sørvest A,Wind_offshr_grouned,1456.0,7280.0
+Sørvest D,Wind_offshr_grouned,1215.0,6075.0
