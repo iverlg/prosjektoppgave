@@ -1,0 +1,497 @@
+﻿Node,to_Node,distance
+Moray Firth,Firth of Forth,215.66724000697232
+Moray Firth,Dogger Bank,509.37069453063407
+Firth of Forth,Dogger Bank,333.6324098443313
+Moray Firth,Hornsea,586.9579982994298
+Firth of Forth,Hornsea,387.59577963956497
+Dogger Bank,Hornsea,120.25788049224701
+Moray Firth,Outer Dowsing,611.3338234945795
+Firth of Forth,Outer Dowsing,400.73683713932223
+Dogger Bank,Outer Dowsing,198.75691602131184
+Hornsea,Outer Dowsing,86.52532461978163
+Moray Firth,Norfolk,702.1999937142205
+Firth of Forth,Norfolk,496.7718208941535
+Dogger Bank,Norfolk,234.50623918960713
+Hornsea,Norfolk,120.59924142070278
+Outer Dowsing,Norfolk,105.99956960972227
+Moray Firth,East Anglia,787.6149309882205
+Firth of Forth,East Anglia,576.6616269147095
+Dogger Bank,East Anglia,337.7367913897244
+Hornsea,East Anglia,220.67066715637148
+Outer Dowsing,East Anglia,176.29828222576822
+Norfolk,East Anglia,103.99263393979243
+Moray Firth,Borssele,818.5721434066141
+Firth of Forth,Borssele,614.8629605345664
+Dogger Bank,Borssele,333.53247358658115
+Hornsea,Borssele,232.2999033880054
+Outer Dowsing,Borssele,222.09837265308104
+Norfolk,Borssele,118.52194224873789
+East Anglia,Borssele,93.11589212966237
+Moray Firth,Hollandsee Kust,796.0368337685674
+Firth of Forth,Hollandsee Kust,601.5799234966896
+Dogger Bank,Hollandsee Kust,293.3302884965482
+Hornsea,Hollandsee Kust,214.56805424874173
+Outer Dowsing,Hollandsee Kust,235.264147892449
+Norfolk,Hollandsee Kust,132.88728064296424
+East Anglia,Hollandsee Kust,162.82439215016777
+Borssele,Hollandsee Kust,80.9042172359045
+Moray Firth,Helgoländer Bucht,779.8180632369669
+Firth of Forth,Helgoländer Bucht,642.6143202716544
+Dogger Bank,Helgoländer Bucht,325.012751092706
+Hornsea,Helgoländer Bucht,361.1382927704558
+Outer Dowsing,Helgoländer Bucht,437.7989476464565
+Norfolk,Helgoländer Bucht,381.72114999960195
+East Anglia,Helgoländer Bucht,456.06270333425005
+Borssele,Helgoländer Bucht,382.5397621602706
+Hollandsee Kust,Helgoländer Bucht,301.63964600764257
+Moray Firth,Nordsøen,656.6804609773885
+Firth of Forth,Nordsøen,575.9030124286755
+Dogger Bank,Nordsøen,345.30522044125985
+Hornsea,Nordsøen,440.0724925196709
+Outer Dowsing,Nordsøen,526.5960521914255
+Norfolk,Nordsøen,512.3235085022484
+East Anglia,Nordsøen,607.4529395512023
+Borssele,Nordsøen,554.9032602483013
+Hollandsee Kust,Nordsøen,478.6575071509759
+Helgoländer Bucht,Nordsøen,222.55455818581822
+Moray Firth,Energyhub EU,649.8493211307973
+Firth of Forth,Energyhub EU,519.0450660858711
+Dogger Bank,Energyhub EU,220.7801711824668
+Hornsea,Energyhub EU,291.68606840424127
+Outer Dowsing,Energyhub EU,376.95471269208736
+Norfolk,Energyhub EU,351.72545369879896
+East Anglia,Energyhub EU,445.0619117838375
+Borssele,Energyhub EU,392.68790021109646
+Hollandsee Kust,Energyhub EU,317.7432006391315
+Helgoländer Bucht,Energyhub EU,130.16914779643164
+Nordsøen,Energyhub EU,162.80409413062137
+Moray Firth,Nordvest A,1133.130465186694
+Firth of Forth,Nordvest A,1289.0335830586537
+Dogger Bank,Nordvest A,1357.4156529865954
+Hornsea,Nordvest A,1477.653909658062
+Outer Dowsing,Nordvest A,1550.5649606312454
+Norfolk,Nordvest A,1587.454311171715
+East Anglia,Nordvest A,1691.3868263530662
+Borssele,Nordvest A,1664.6653952648687
+Hollandsee Kust,Nordvest A,1597.757396950709
+Helgoländer Bucht,Nordvest A,1359.4723875320358
+Nordsøen,Nordvest A,1138.9851531727033
+Energyhub EU,Nordvest A,1286.3688843042464
+Moray Firth,Nordvest C,832.1398995793999
+Firth of Forth,Nordvest C,978.864977709958
+Dogger Bank,Nordvest C,1048.4987444539224
+Hornsea,Nordvest C,1168.5657515803193
+Outer Dowsing,Nordvest C,1239.9953579527762
+Norfolk,Nordvest C,1280.207128087386
+East Anglia,Nordvest C,1384.1982101371527
+Borssele,Nordvest C,1361.469397923503
+Hollandsee Kust,Nordvest C,1297.17642968882
+Helgoländer Bucht,Nordvest C,1074.8409993455398
+Nordsøen,Nordvest C,852.330000528535
+Energyhub EU,Nordvest C,991.3584483255794
+Nordvest A,Nordvest C,312.69838734160714
+Moray Firth,Vestavind A,579.2029048279866
+Firth of Forth,Vestavind A,724.8291149307015
+Dogger Bank,Vestavind A,819.1009340416392
+Hornsea,Vestavind A,937.6720880207305
+Outer Dowsing,Vestavind A,1004.1584222485883
+Norfolk,Vestavind A,1053.3704631724315
+East Anglia,Vestavind A,1156.8329735307439
+Borssele,Vestavind A,1143.075817053313
+Hollandsee Kust,Vestavind A,1084.6745937245046
+Helgoländer Bucht,Vestavind A,895.3200651369817
+Nordsøen,Vestavind A,676.8799347932692
+Energyhub EU,Vestavind A,794.9322335498864
+Nordvest A,Vestavind A,564.29103024164
+Nordvest C,Vestavind A,254.91514619152488
+Moray Firth,Sønnavind A,635.6334955364619
+Firth of Forth,Sønnavind A,602.8000786075381
+Dogger Bank,Sønnavind A,443.1521223427358
+Hornsea,Sønnavind A,551.7493286909734
+Outer Dowsing,Sønnavind A,637.1668631322605
+Norfolk,Sønnavind A,637.4248658332258
+East Anglia,Sønnavind A,736.3904298416477
+Borssele,Sønnavind A,690.2448212190887
+Hollandsee Kust,Sønnavind A,616.0737538715418
+Helgoländer Bucht,Sønnavind A,363.22671780145225
+Nordsøen,Sønnavind A,142.30648201085262
+Energyhub EU,Sønnavind A,298.3377661610086
+Nordvest A,Sønnavind A,996.8435291296219
+Nordvest C,Sønnavind A,712.5374006495241
+Vestavind A,Sønnavind A,549.726291942625
+Moray Firth,Sørvest C,441.57753823793263
+Firth of Forth,Sørvest C,380.79456520287823
+Dogger Bank,Sørvest C,269.5832188841951
+Hornsea,Sørvest C,389.49467619484284
+Outer Dowsing,Sørvest C,467.1435723802616
+Norfolk,Sørvest C,497.61130769220097
+East Anglia,Sørvest C,601.5733276358241
+Borssele,Sørvest C,580.2936842964567
+Hollandsee Kust,Sørvest C,520.7114437721514
+Helgoländer Bucht,Sørvest C,373.3938896070654
+Nordsøen,Sørvest C,215.17814467996206
+Energyhub EU,Sørvest C,250.39554340959077
+Nordvest A,Sørvest C,1089.8686986266048
+Nordvest C,Sørvest C,783.0219016248722
+Vestavind A,Sørvest C,563.9726076324799
+Sønnavind A,Sørvest C,222.98836645093493
+Moray Firth,Nordvest B,939.0537026405771
+Firth of Forth,Nordvest B,1092.0531390315127
+Dogger Bank,Nordvest B,1165.345767820117
+Hornsea,Nordvest B,1285.4437119947786
+Outer Dowsing,Nordvest B,1356.9879652587026
+Norfolk,Nordvest B,1396.8224149614439
+East Anglia,Nordvest B,1500.8149594152464
+Borssele,Nordvest B,1477.2615785946282
+Hollandsee Kust,Nordvest B,1412.3094348158145
+Helgoländer Bucht,Nordvest B,1185.0779492432516
+Nordsøen,Nordvest B,962.8985754713661
+Energyhub EU,Nordvest B,1104.7616049727787
+Nordvest A,Nordvest B,197.1412217328221
+Nordvest C,Nordvest B,116.99472595904322
+Vestavind A,Nordvest B,367.23734571858597
+Sønnavind A,Nordvest B,821.9935631216379
+Sørvest C,Nordvest B,899.4588503584348
+Moray Firth,Vestavind F,462.33391764126264
+Firth of Forth,Vestavind F,519.9718345723516
+Dogger Bank,Vestavind F,525.5807901118396
+Hornsea,Vestavind F,645.791818571233
+Outer Dowsing,Vestavind F,719.2134636296382
+Norfolk,Vestavind F,756.8627320308647
+East Anglia,Vestavind F,860.8528539688089
+Borssele,Vestavind F,840.0770988195974
+Hollandsee Kust,Vestavind F,778.6299599987506
+Helgoländer Bucht,Vestavind F,589.27060863939
+Nordsøen,Vestavind F,375.8814981433614
+Energyhub EU,Vestavind F,485.7615017810674
+Nordvest A,Vestavind F,831.8975914178119
+Nordvest C,Vestavind F,523.3471732052699
+Vestavind A,Vestavind F,309.25730916765923
+Sønnavind A,Vestavind F,265.93227607341225
+Sørvest C,Vestavind F,260.0942583763927
+Nordvest B,Vestavind F,640.0232465362523
+Moray Firth,Sørvest E,477.48580365816883
+Firth of Forth,Sørvest E,441.6751139379235
+Dogger Bank,Sørvest E,336.3485305427525
+Hornsea,Sørvest E,455.19654059541364
+Outer Dowsing,Sørvest E,534.8993693389122
+Norfolk,Sørvest E,559.3425172608911
+East Anglia,Sørvest E,662.9314095281945
+Borssele,Sørvest E,635.623530646438
+Hollandsee Kust,Sørvest E,571.6774011216361
+Helgoländer Bucht,Sørvest E,389.6937230056723
+Nordsøen,Sørvest E,196.91682693517782
+Energyhub EU,Sørvest E,278.62996414405336
+Nordvest A,Sørvest E,1029.7106790784248
+Nordvest C,Sørvest E,725.9754753202579
+Vestavind A,Sørvest E,517.6777458381603
+Sønnavind A,Sørvest E,163.09042673130617
+Sørvest C,Sørvest E,71.7426424004481
+Nordvest B,Sørvest E,841.6428964443277
+Vestavind F,Sørvest E,208.65293451981267
+Moray Firth,Sørvest A,397.20048682213377
+Firth of Forth,Sørvest A,389.3862226095744
+Dogger Bank,Sørvest A,358.44445007389965
+Hornsea,Sørvest A,478.49523569593896
+Outer Dowsing,Sørvest A,551.3160392892426
+Norfolk,Sørvest A,591.0765780969916
+East Anglia,Sørvest A,694.9709892770903
+Borssele,Sørvest A,678.4714618290075
+Hollandsee Kust,Sørvest A,620.9277591682522
+Helgoländer Bucht,Sørvest A,468.0412621423236
+Nordsøen,Sørvest A,284.60424788147344
+Energyhub EU,Sørvest A,349.2129743005821
+Nordvest A,Sørvest A,999.5550996943175
+Nordvest C,Sørvest A,690.0732134625939
+Vestavind A,Sørvest A,464.6110977834852
+Sønnavind A,Sørvest A,238.49888295191306
+Sørvest C,Sørvest A,101.6740140414238
+Nordvest B,Sørvest A,806.9495563045048
+Vestavind F,Sørvest A,167.9011773975434
+Sørvest E,Sørvest A,88.13235124707614
+Moray Firth,Vestavind B,504.85873083579975
+Firth of Forth,Vestavind B,632.8718691161279
+Dogger Bank,Vestavind B,713.7466123870402
+Hornsea,Vestavind B,832.5026613571911
+Outer Dowsing,Vestavind B,899.7194651075309
+Norfolk,Vestavind B,947.9402907775998
+East Anglia,Vestavind B,1051.4581001355386
+Borssele,Vestavind B,1037.552417905533
+Hollandsee Kust,Vestavind B,979.4406475662009
+Helgoländer Bucht,Vestavind B,795.5631181279448
+Nordsøen,Vestavind B,579.6319536043467
+Energyhub EU,Vestavind B,692.1703258579861
+Nordvest A,Vestavind B,660.8222078886166
+Nordvest C,Vestavind B,348.352174745437
+Vestavind A,Vestavind B,105.55711680397691
+Sønnavind A,Vestavind B,458.2728121202886
+Sørvest C,Vestavind B,458.7366570002882
+Nordvest B,Vestavind B,463.976985301433
+Vestavind F,Vestavind B,206.75944334547913
+Sørvest E,Vestavind B,414.06870901722414
+Sørvest A,Vestavind B,359.1084056923458
+Moray Firth,Vestavind C,473.39366244201017
+Firth of Forth,Vestavind C,581.8288885199978
+Dogger Bank,Vestavind C,644.0268451563096
+Hornsea,Vestavind C,763.2652394191745
+Outer Dowsing,Vestavind C,831.9997375620002
+Norfolk,Vestavind C,877.8590992084919
+East Anglia,Vestavind C,981.5501081519083
+Borssele,Vestavind C,966.2030861263994
+Hollandsee Kust,Vestavind C,907.4859706171253
+Helgoländer Bucht,Vestavind C,724.1247718086754
+Nordsøen,Vestavind C,509.5274291524355
+Energyhub EU,Vestavind C,619.8351355162928
+Nordvest A,Vestavind C,722.5982004008503
+Nordvest C,Vestavind C,410.1011698870612
+Vestavind A,Vestavind C,177.1910905081478
+Sønnavind A,Vestavind C,392.01246527950224
+Sørvest C,Vestavind C,386.7916112366856
+Nordvest B,Vestavind C,526.8283456364342
+Vestavind F,Vestavind C,134.88486355336985
+Sørvest E,Vestavind C,341.6398080662663
+Sørvest A,Vestavind C,287.7916638001671
+Vestavind B,Vestavind C,72.44773811891152
+Moray Firth,Vestavind D,497.28963076273953
+Firth of Forth,Vestavind D,595.7251890453839
+Dogger Bank,Vestavind D,639.8255314259209
+Hornsea,Vestavind D,759.6816069738846
+Outer Dowsing,Vestavind D,830.6025943321733
+Norfolk,Vestavind D,872.6181709516097
+East Anglia,Vestavind D,976.5288454389809
+Borssele,Vestavind D,958.0206863526671
+Hollandsee Kust,Vestavind D,897.3750762742548
+Helgoländer Bucht,Vestavind D,704.9688043266664
+Nordsøen,Vestavind D,487.8925764245832
+Energyhub EU,Vestavind D,604.2426550951902
+Nordvest A,Vestavind D,720.5705733725359
+Nordvest C,Vestavind D,409.3928076137506
+Vestavind A,Vestavind D,190.84077922888102
+Sønnavind A,Vestavind D,366.05746945099963
+Sørvest C,Vestavind D,377.72712278781455
+Nordvest B,Vestavind D,526.3855064394126
+Vestavind F,Vestavind D,119.119613614877
+Sørvest E,Vestavind D,327.7503386442524
+Sørvest A,Vestavind D,281.5657060085758
+Vestavind B,Vestavind D,92.31609036792003
+Vestavind C,Vestavind D,34.15215477332633
+Moray Firth,Sørvest F,507.78509478251016
+Firth of Forth,Sørvest F,439.2834446177816
+Dogger Bank,Sørvest F,278.71066053038265
+Hornsea,Sørvest F,394.3785194661241
+Outer Dowsing,Sørvest F,476.94222874515265
+Norfolk,Sørvest F,493.2679192041266
+East Anglia,Sørvest F,596.160576189542
+Borssele,Sørvest F,564.906387210018
+Hollandsee Kust,Sørvest F,499.3055234513053
+Helgoländer Bucht,Sørvest F,319.8421492928468
+Nordsøen,Sørvest F,148.97310985331976
+Energyhub EU,Sørvest F,204.99406234963953
+Nordvest A,Sørvest F,1099.7596820910242
+Nordvest C,Sørvest F,797.8709154179905
+Vestavind A,Sørvest F,591.8348812662871
+Sønnavind A,Sørvest F,174.69705226031388
+Sørvest C,Sørvest F,66.2159880904323
+Nordvest B,Sørvest F,913.0967968486939
+Vestavind F,Sørvest F,282.73523486740294
+Sørvest E,Sørvest F,74.1705005610965
+Sørvest A,Sørvest F,148.48687148418918
+Vestavind B,Sørvest F,488.2221287671014
+Vestavind C,Sørvest F,415.7869355203906
+Vestavind D,Sørvest F,401.79081618605977
+Moray Firth,Sørvest B,399.368015753885
+Firth of Forth,Sørvest B,356.97118093960546
+Dogger Bank,Sørvest B,294.33858633145525
+Hornsea,Sørvest B,414.45523388486066
+Outer Dowsing,Sørvest B,487.99658725449376
+Norfolk,Sørvest B,526.8938451051074
+East Anglia,Sørvest B,630.7813360036478
+Borssele,Sørvest B,615.0069890974776
+Hollandsee Kust,Sørvest B,558.6360624347116
+Helgoländer Bucht,Sørvest B,421.8304199767457
+Nordsøen,Sørvest B,259.6691494665769
+Energyhub EU,Sørvest B,297.8857991121583
+Nordvest A,Sørvest B,1063.3580514924545
+Nordvest C,Sørvest B,754.1609513586178
+Vestavind A,Sørvest B,528.166095654871
+Sønnavind A,Sørvest B,248.0526305262625
+Sørvest C,Sørvest B,48.64906631596882
+Nordvest B,Sørvest B,871.0093882478011
+Vestavind F,Sørvest B,231.4783662908827
+Sørvest E,Sørvest B,85.17497231774644
+Sørvest A,Sørvest B,64.19317463429952
+Vestavind B,Sørvest B,422.61558045023395
+Vestavind C,Sørvest B,351.612455188566
+Vestavind D,Sørvest B,345.75884742100715
+Sørvest F,Sørvest B,111.71478444223192
+Moray Firth,Nordavind B,2098.340743441335
+Firth of Forth,Nordavind B,2250.172444144951
+Dogger Bank,Nordavind B,2284.342250319866
+Hornsea,Nordavind B,2403.5735481142374
+Outer Dowsing,Nordavind B,2482.152254215282
+Norfolk,Nordavind B,2504.8275796882617
+East Anglia,Nordavind B,2607.102284444421
+Borssele,Nordavind B,2566.8686221613584
+Hollandsee Kust,Nordavind B,2493.116213440865
+Helgoländer Bucht,Nordavind B,2220.950985271707
+Nordsøen,Nordavind B,2015.597683535571
+Energyhub EU,Nordavind B,2175.373371195404
+Nordvest A,Nordavind B,965.211202242734
+Nordvest C,Nordavind B,1271.5482040805855
+Vestavind A,Nordavind B,1526.2764260210022
+Sønnavind A,Nordavind B,1877.0576428995334
+Sørvest C,Nordavind B,2015.0396746135148
+Nordvest B,Nordavind B,1160.2941682691887
+Vestavind F,Nordavind B,1768.0185086374552
+Sørvest E,Nordavind B,1948.381795877113
+Sørvest A,Nordavind B,1934.5207175943276
+Vestavind B,Nordavind B,1617.8322355588118
+Vestavind C,Nordavind B,1673.9312845738132
+Vestavind D,Nordavind B,1666.4291119055342
+Sørvest F,Nordavind B,2011.7608290429844
+Sørvest B,Nordavind B,1996.1812598783476
+Moray Firth,Nordavind A,2200.0932590510174
+Firth of Forth,Nordavind A,2341.8121399423803
+Dogger Bank,Nordavind A,2354.087904988066
+Hornsea,Nordavind A,2472.0194116178436
+Outer Dowsing,Nordavind A,2552.7389135001013
+Norfolk,Nordavind A,2568.887800024859
+East Anglia,Nordavind A,2669.8042870391882
+Borssele,Nordavind A,2624.478693334202
+Hollandsee Kust,Nordavind A,2548.7644430779806
+Helgoländer Bucht,Nordavind A,2268.280335281317
+Nordsøen,Nordavind A,2070.10883861268
+Energyhub EU,Nordavind A,2231.810791512755
+Nordvest A,Nordavind A,1071.688433510131
+Nordvest C,Nordavind A,1368.3271985547688
+Vestavind A,Nordavind A,1622.7761209317039
+Sønnavind A,Nordavind A,1934.7171591045724
+Sørvest C,Nordavind A,2086.3662437142066
+Nordvest B,Nordavind A,1261.7821357448968
+Vestavind F,Nordavind A,1846.6852788431659
+Sørvest E,Nordavind A,2017.847198615382
+Sørvest A,Nordavind A,2010.8792117599448
+Vestavind B,Nordavind A,1709.2963612673468
+Vestavind C,Nordavind A,1761.2004216464657
+Vestavind D,Nordavind A,1750.8298120372563
+Sørvest F,Nordavind A,2078.009298192024
+Sørvest B,Nordavind A,2070.9799010144125
+Nordavind B,Nordavind A,171.99198592489583
+Moray Firth,Nordavind D,1823.0730991767978
+Firth of Forth,Nordavind D,1987.7456859866422
+Dogger Bank,Nordavind D,2053.9176105732818
+Hornsea,Nordavind D,2174.125329797486
+Outer Dowsing,Nordavind D,2248.8310404461163
+Norfolk,Nordavind D,2281.3279513029797
+East Anglia,Nordavind D,2384.9334780708873
+Borssele,Nordavind D,2352.950978736779
+Hollandsee Kust,Nordavind D,2282.9100075570354
+Helgoländer Bucht,Nordavind D,2026.9712060188615
+Nordsøen,Nordavind D,1812.4369379471943
+Energyhub EU,Nordavind D,1967.059653634019
+Nordvest A,Nordavind D,701.2059505616289
+Nordvest C,Nordavind D,1013.9004192839162
+Vestavind A,Nordavind D,1264.1832508866198
+Sønnavind A,Nordavind D,1670.769589055636
+Sørvest C,Nordavind D,1784.9222949404423
+Nordvest B,Nordavind D,897.9952477805729
+Vestavind F,Nordavind D,1529.635431923326
+Sørvest E,Nordavind D,1722.007569258065
+Sørvest A,Nordavind D,1697.5360619852825
+Vestavind B,Nordavind D,1361.9478828504418
+Vestavind C,Nordavind D,1423.6097625855123
+Vestavind D,Nordavind D,1420.630831126409
+Sørvest F,Nordavind D,1789.684885242603
+Sørvest B,Nordavind D,1760.885154573693
+Nordavind B,Nordavind D,322.822627468524
+Nordavind A,Nordavind D,482.8910557901285
+Moray Firth,Nordavind C,1876.24215443083
+Firth of Forth,Nordavind C,2040.2183857334846
+Dogger Bank,Nordavind C,2103.8811629093816
+Hornsea,Nordavind C,2224.0515779149564
+Outer Dowsing,Nordavind C,2299.13236285671
+Norfolk,Nordavind C,2330.7479176970537
+East Anglia,Nordavind C,2434.2687589136312
+Borssele,Nordavind C,2401.4777520966395
+Hollandsee Kust,Nordavind C,2331.034486956541
+Helgoländer Bucht,Nordavind C,2073.23317927025
+Nordsøen,Nordavind C,1859.5305192367712
+Energyhub EU,Nordavind C,2014.812493435474
+Nordvest A,Nordavind C,752.8856860910477
+Nordvest C,Nordavind C,1065.5081102109755
+Vestavind A,Nordavind C,1316.3529404314713
+Sønnavind A,Nordavind C,1718.0741813686118
+Sørvest C,Nordavind C,1834.7169913153195
+Nordvest B,Nordavind C,949.8511599517708
+Vestavind F,Nordavind C,1580.0230787078087
+Sørvest E,Nordavind C,1771.4061300377143
+Sørvest A,Nordavind C,1747.9079061104267
+Vestavind B,Nordavind C,1413.707487168537
+Vestavind C,Nordavind C,1474.9610374082006
+Vestavind D,Nordavind C,1471.5970185471924
+Sørvest F,Nordavind C,1838.7111295596033
+Sørvest B,Nordavind C,1811.1419291415443
+Nordavind B,Nordavind C,275.3952529506815
+Nordavind A,Nordavind C,439.86331036875094
+Nordavind D,Nordavind C,53.72406451043389
+Moray Firth,Vestavind E,421.69031110386993
+Firth of Forth,Vestavind E,477.99553604973653
+Dogger Bank,Vestavind E,496.79195150329997
+Hornsea,Vestavind E,616.6397121100676
+Outer Dowsing,Vestavind E,687.9386225487353
+Norfolk,Vestavind E,729.7727987905752
+East Anglia,Vestavind E,833.6450825957428
+Borssele,Vestavind E,816.5747594052762
+Hollandsee Kust,Vestavind E,757.5755457814647
+Helgoländer Bucht,Vestavind E,582.5691586302297
+Nordsøen,Vestavind E,375.74532028232045
+Energyhub EU,Vestavind E,473.22048988241613
+Nordvest A,Vestavind E,862.7200628768868
+Nordvest C,Vestavind E,552.2072241371932
+Vestavind A,Vestavind E,327.0992063357449
+Sønnavind A,Vestavind E,278.58110159184076
+Sørvest C,Vestavind E,236.88250424539328
+Nordvest B,Vestavind E,669.1748740133296
+Vestavind F,Vestavind E,42.47051201684879
+Sørvest E,Vestavind E,194.68028962518179
+Sørvest A,Vestavind E,138.72488257171793
+Vestavind B,Vestavind E,221.9820156020105
+Vestavind C,Vestavind E,149.9112160067169
+Vestavind D,Vestavind E,143.04321032935212
+Sørvest F,Vestavind E,268.30553122461015
+Sørvest B,Vestavind E,202.88361898825858
+Nordavind B,Vestavind E,1803.6510479574954
+Nordavind A,Vestavind E,1884.1225085549058
+Nordavind D,Vestavind E,1561.9709610082243
+Nordavind C,Vestavind E,1612.6754335828025
+Moray Firth,Sørvest D,465.32634203707215
+Firth of Forth,Sørvest D,373.33253222582283
+Dogger Bank,Sørvest D,209.93931813537773
+Hornsea,Sørvest D,328.7419264714057
+Outer Dowsing,Sørvest D,408.61146599474864
+Norfolk,Sørvest D,434.4474785897942
+East Anglia,Sørvest D,538.311371303296
+Borssele,Sørvest D,515.7817068342237
+Hollandsee Kust,Sørvest D,456.2994818838561
+Helgoländer Bucht,Sørvest D,325.24888029465916
+Nordsøen,Sørvest D,202.8707002630408
+Energyhub EU,Sørvest D,197.41236303105177
+Nordvest A,Sørvest D,1153.1300463915697
+Nordvest C,Sørvest D,846.9850714129514
+Vestavind A,Sørvest D,628.4447926156852
+Sønnavind A,Sørvest D,250.83115714718392
+Sørvest C,Sørvest D,64.55973470456927
+Nordvest B,Sørvest D,963.2949807966695
+Vestavind F,Sørvest D,324.4201888378122
+Sørvest E,Sørvest D,126.4869815099497
+Sørvest A,Sørvest D,165.0150960123277
+Vestavind B,Sørvest D,523.1531392450996
+Vestavind C,Sørvest D,451.2795898749641
+Vestavind D,Sørvest D,442.25263041916713
+Sørvest F,Sørvest D,76.21593932536162
+Sørvest B,Sørvest D,105.11395432786524
+Nordavind B,Sørvest D,2074.8336540005903
+Nordavind A,Sørvest D,2144.1538437246104
+Nordavind D,Sørvest D,1847.1700558216264
+Nordavind C,Sørvest D,1896.7711012951013
+Vestavind E,Sørvest D,301.3830491081826
