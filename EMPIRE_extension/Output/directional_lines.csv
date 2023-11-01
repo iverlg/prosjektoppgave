@@ -7,7 +7,7 @@ Firth of Forth,Outer Dowsing,400.73683713932223,HVDC_Cable
 Dogger Bank,Outer Dowsing,198.75691602131184,HVDC_Cable
 Hornsea,Outer Dowsing,86.52532461978163,HVDC_Cable
 Firth of Forth,Norfolk,496.7718208941535,HVDC_Cable
-Dogger Bank,Norfolk,234.50623918960716,HVDC_Cable
+Dogger Bank,Norfolk,234.5062391896072,HVDC_Cable
 Hornsea,Norfolk,120.59924142070278,HVDC_Cable
 Outer Dowsing,Norfolk,105.99956960972229,HVDC_Cable
 Dogger Bank,East Anglia,337.7367913897244,HVDC_Cable
@@ -97,7 +97,7 @@ Vestavind A,Vestavind B,105.55711680397692,HVDC_Cable
 Sønnavind A,Vestavind B,458.2728121202886,HVDC_Cable
 Sørvest C,Vestavind B,458.7366570002882,HVDC_Cable
 Nordvest B,Vestavind B,463.976985301433,HVDC_Cable
-Vestavind F,Vestavind B,206.75944334547916,HVDC_Cable
+Vestavind F,Vestavind B,206.7594433454792,HVDC_Cable
 Sørvest E,Vestavind B,414.06870901722414,HVDC_Cable
 Sørvest A,Vestavind B,359.1084056923458,HVDC_Cable
 Moray Firth,Vestavind C,473.39366244201017,HVDC_Cable
@@ -128,7 +128,7 @@ Norfolk,Sørvest F,493.2679192041266,HVDC_Cable
 Hollandsee Kust,Sørvest F,499.3055234513053,HVDC_Cable
 Helgoländer Bucht,Sørvest F,319.8421492928468,HVDC_Cable
 Nordsøen,Sørvest F,148.97310985331976,HVDC_Cable
-Energyhub EU,Sørvest F,204.99406234963956,HVDC_Cable
+Energyhub EU,Sørvest F,204.9940623496396,HVDC_Cable
 Sønnavind A,Sørvest F,174.69705226031388,HVDC_Cable
 Sørvest C,Sørvest F,66.2159880904323,HVDC_Cable
 Vestavind F,Sørvest F,282.73523486740294,HVDC_Cable
@@ -175,7 +175,7 @@ Vestavind B,Vestavind E,221.9820156020105,HVDC_Cable
 Vestavind C,Vestavind E,149.9112160067169,HVDC_Cable
 Vestavind D,Vestavind E,143.04321032935212,HVDC_Cable
 Sørvest F,Vestavind E,268.3055312246101,HVDC_Cable
-Sørvest B,Vestavind E,202.88361898825855,HVDC_Cable
+Sørvest B,Vestavind E,202.88361898825852,HVDC_Cable
 Moray Firth,Sørvest D,465.32634203707215,HVDC_Cable
 Firth of Forth,Sørvest D,373.3325322258228,HVDC_Cable
 Dogger Bank,Sørvest D,209.93931813537773,HVDC_Cable
@@ -196,7 +196,7 @@ Vestavind D,Sørvest D,442.25263041916713,HVDC_Cable
 Sørvest F,Sørvest D,76.21593932536162,HVDC_Cable
 Sørvest B,Sørvest D,105.11395432786524,HVDC_Cable
 Vestavind E,Sørvest D,301.3830491081826,HVDC_Cable
-Moray Firth,Great Brit.,20.780646036182517,HVDC_OffshoreToOnshore
+Moray Firth,Great Brit.,20.78064603618252,HVDC_OffshoreToOnshore
 Firth of Forth,Great Brit.,35.56680378770196,HVDC_OffshoreToOnshore
 Dogger Bank,Great Brit.,180.20559841990445,HVDC_OffshoreToOnshore
 Hornsea,Great Brit.,107.98594881868662,HVDC_OffshoreToOnshore
@@ -223,7 +223,7 @@ Nordvest B,NO3,112.4794802771582,HVDC_OffshoreToOnshore
 Vestavind F,NO2,20.82364874263417,HVDC_OffshoreToOnshore
 Sørvest E,NO2,129.32719560312736,HVDC_OffshoreToOnshore
 Sørvest A,NO2,147.33599961469636,HVDC_OffshoreToOnshore
-Vestavind B,NO5,49.31277127253777,HVDC_OffshoreToOnshore
+Vestavind B,NO3,49.31277127253777,HVDC_OffshoreToOnshore
 Vestavind C,NO5,27.932524933533447,HVDC_OffshoreToOnshore
 Vestavind D,NO5,29.04151979196349,HVDC_OffshoreToOnshore
 Sørvest F,NO2,178.58740175332332,HVDC_OffshoreToOnshore
