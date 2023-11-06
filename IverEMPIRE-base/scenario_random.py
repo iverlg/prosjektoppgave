@@ -4,9 +4,11 @@ __maintainer__ = "Stian Backe"
 __email__ = "stian.backe@ntnu.no"
 
 
-import pandas as pd
-import numpy as np
 import os
+
+import numpy as np
+import pandas as pd
+
 
 def season_month(season):
     if season=="winter":

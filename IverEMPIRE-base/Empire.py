@@ -1465,67 +1465,67 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
 	#Commenting out this plotting because it is not currently interesting.
 
 	print("{hour}:{minute}:{second}: Writing plotting file to results_output_EuropePlot.csv...".format(
-	    hour=datetime.now().strftime("%H"), minute=datetime.now().strftime("%M"), second=datetime.now().strftime("%S")))
+		hour=datetime.now().strftime("%H"), minute=datetime.now().strftime("%M"), second=datetime.now().strftime("%S")))
 	f = open(result_file_path + "/" + 'results_output_EuropePlot.csv', 'w', newline='', encoding="utf-8-sig")
 	writer = csv.writer(f)
 	writer.writerow(["Period","genInstalledCap_MW"])
 	my_string=[""]
 	for g in instance.Generator:
-	    my_string.append(g)
+		my_string.append(g)
 	writer.writerow(my_string)
 	my_string=["Initial"]
 	for g in instance.Generator:
-	    my_string.append((value(sum(instance.genInitCap[n,g,1] for n in instance.Node if (n,g) in instance.GeneratorsOfNode))))
+		my_string.append((value(sum(instance.genInitCap[n,g,1] for n in instance.Node if (n,g) in instance.GeneratorsOfNode))))
 	writer.writerow(my_string)
 	for i in instance.Period:
-	    my_string=[inv_per[int(i-1)]]
-	    for g in instance.Generator:
-	        my_string.append(value(sum(instance.genInstalledCap[n,g,i] for n in instance.Node if (n,g) in instance.GeneratorsOfNode)))
-	    writer.writerow(my_string)
+		my_string=[inv_per[int(i-1)]]
+		for g in instance.Generator:
+			my_string.append(value(sum(instance.genInstalledCap[n,g,i] for n in instance.Node if (n,g) in instance.GeneratorsOfNode)))
+		writer.writerow(my_string)
 	writer.writerow([""])
 	writer.writerow(["Period","genExpectedAnnualProduction_GWh"])
 	my_string=[""]
 	for g in instance.Generator:
-	    my_string.append(g)
+		my_string.append(g)
 	writer.writerow(my_string)
 	for i in instance.Period:
-	    my_string=[inv_per[int(i-1)]]
-	    for g in instance.Generator:
-	        my_string.append(value(sum(instance.sceProbab[w]*instance.seasScale[s]*instance.genOperational[n,g,h,i,w]/1000 for n in instance.Node if (n,g) in instance.GeneratorsOfNode for (s,h) in instance.HoursOfSeason for w in instance.Scenario)))
-	    writer.writerow(my_string)
+		my_string=[inv_per[int(i-1)]]
+		for g in instance.Generator:
+			my_string.append(value(sum(instance.sceProbab[w]*instance.seasScale[s]*instance.genOperational[n,g,h,i,w]/1000 for n in instance.Node if (n,g) in instance.GeneratorsOfNode for (s,h) in instance.HoursOfSeason for w in instance.Scenario)))
+		writer.writerow(my_string)
 	writer.writerow([""])
 	writer.writerow(["Period","storPWInstalledCap_MW"])
 	my_string=[""]
 	for b in instance.Storage:
-	    my_string.append(b)
+		my_string.append(b)
 	writer.writerow(my_string)
 	for i in instance.Period:
-	    my_string=[inv_per[int(i-1)]]
-	    for b in instance.Storage:
-	        my_string.append(value(sum(instance.storPWInstalledCap[n,b,i] for n in instance.Node if (n,b) in instance.StoragesOfNode)))
-	    writer.writerow(my_string)
+		my_string=[inv_per[int(i-1)]]
+		for b in instance.Storage:
+			my_string.append(value(sum(instance.storPWInstalledCap[n,b,i] for n in instance.Node if (n,b) in instance.StoragesOfNode)))
+		writer.writerow(my_string)
 	writer.writerow([""])
 	writer.writerow(["Period","storENInstalledCap_MW"])
 	my_string=[""]
 	for b in instance.Storage:
-	    my_string.append(b)
+		my_string.append(b)
 	writer.writerow(my_string)
 	for i in instance.Period:
-	    my_string=[inv_per[int(i-1)]]
-	    for b in instance.Storage:
-	        my_string.append(value(sum(instance.storENInstalledCap[n,b,i] for n in instance.Node if (n,b) in instance.StoragesOfNode)))
-	    writer.writerow(my_string)
+		my_string=[inv_per[int(i-1)]]
+		for b in instance.Storage:
+			my_string.append(value(sum(instance.storENInstalledCap[n,b,i] for n in instance.Node if (n,b) in instance.StoragesOfNode)))
+		writer.writerow(my_string)
 	writer.writerow([""])
 	writer.writerow(["Period","storExpectedAnnualDischarge_GWh"])
 	my_string=[""]
 	for b in instance.Storage:
-	    my_string.append(b)
+		my_string.append(b)
 	writer.writerow(my_string)
 	for i in instance.Period:
-	    my_string=[inv_per[int(i-1)]]
-	    for b in instance.Storage:
-	        my_string.append(value(sum(instance.sceProbab[w]*instance.seasScale[s]*instance.storDischarge[n,b,h,i,w]/1000 for n in instance.Node if (n,b) in instance.StoragesOfNode for (s,h) in instance.HoursOfSeason for w in instance.Scenario)))
-	    writer.writerow(my_string)
+		my_string=[inv_per[int(i-1)]]
+		for b in instance.Storage:
+			my_string.append(value(sum(instance.sceProbab[w]*instance.seasScale[s]*instance.storDischarge[n,b,h,i,w]/1000 for n in instance.Node if (n,b) in instance.StoragesOfNode for (s,h) in instance.HoursOfSeason for w in instance.Scenario)))
+		writer.writerow(my_string)
 	f.close()
 
 	print("{hour}:{minute}:{second}: Writing summary file to results_output_EuropeSummary.csv...".format(

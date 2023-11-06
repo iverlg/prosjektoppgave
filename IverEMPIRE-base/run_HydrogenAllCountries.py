@@ -1,9 +1,10 @@
-from reader import generate_tab_files
-from Empire import run_empire
-from scenario_random import generate_random_scenario
-from datetime import datetime
-import time
 import gc
+import time
+from datetime import datetime
+
+from Empire import run_empire
+from reader import generate_tab_files
+from scenario_random import generate_random_scenario
 
 ########
 ##USER##
