@@ -194,8 +194,6 @@ for hydrogenPercentage in hydrogenPercentages:
                PICKLE_INSTANCE = PICKLE_INSTANCE,
                EMISSION_CAP = EMISSION_CAP,
                USE_TEMP_DIR = USE_TEMP_DIR,
-               NoOfRegSeason = NoOfRegSeason,
-               NoOfPeakSeason = NoOfPeakSeason,
                offshoreNodesList = offshoreNodesList,
                verboseResultWriting = False,
                optimizingWithBinaries = OptimizingWithBinaries,

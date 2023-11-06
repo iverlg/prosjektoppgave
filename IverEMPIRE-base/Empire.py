@@ -28,8 +28,8 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
 			   solver, temp_dir, FirstHoursOfRegSeason, FirstHoursOfPeakSeason, lengthRegSeason,
 			   lengthPeakSeason, Period, Operationalhour, Scenario, Season, HoursOfSeason,
 			   discountrate, WACC, LeapYearsInvestment, WRITE_LP,
-			   PICKLE_INSTANCE, EMISSION_CAP, USE_TEMP_DIR, NoOfRegSeason, NoOfPeakSeason,
-			   offshoreNodesList, windfarmNodes = None, verboseResultWriting=False, optimizingWithBinaries=False,
+			   PICKLE_INSTANCE, EMISSION_CAP, USE_TEMP_DIR, offshoreNodesList, windfarmNodes = None,
+			   verboseResultWriting=False, optimizingWithBinaries=False,
 			   hydrogen=False, hydrogenPercentage=0, exactSolution = False, TIME_LIMIT=None,
 			   h2storage=False, h2priceOtherMarkets=-999, otherMarketNodes=[]):
 
