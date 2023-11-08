@@ -1265,7 +1265,6 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
 	if solver == "Gurobi":
 		opt = SolverFactory('gurobi', Verbose=True)
 		opt.options["Crossover"]=0
-		opt.options["Method"]=2
 		# opt.options['NumericFocus']=3
 		# opt.options['Presolve']=2
 		# opt.options['FeasibilityTol']=10**(-9)
