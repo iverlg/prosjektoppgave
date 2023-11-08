@@ -87,6 +87,11 @@ def generate_tab_files(filepath, tab_file_path):
     read_file(GeneratorExcelData, 'GeneratorTypeAvailability', [0, 1], tab_file_path, "Generator", skipheaders=2)
     read_file(GeneratorExcelData, 'CO2Content', [0, 1], tab_file_path, "Generator", skipheaders=2)
     read_file(GeneratorExcelData, 'Lifetime', [0, 1], tab_file_path, "Generator", skipheaders=2)
+    read_file(filepath, 'Generator.xlsx', 'OffshoreAreaMaxCapacity', [0, 1], tab_file_path = tab_file_path)
+
+    # GD: Reading the cost for the offshore converter
+    read_file(filepath, 'Transmission.xlsx', 'OffshoreConverterCapitalCost', [0,1], tab_file_path = tab_file_path)
+    read_file(filepath, 'Transmission.xlsx', 'OffshoreConverterOMCost', [0,1], tab_file_path = tab_file_path)
 
     #Reading InterConnector
     TransmissionExcelData = pd.read_excel(filepath + "/Transmission.xlsx", sheet_name=None)
@@ -104,6 +109,8 @@ def generate_tab_files(filepath, tab_file_path):
     read_file(NodeExcelData , 'ElectricAnnualDemand', [0, 1, 2],tab_file_path,  "Node", skipheaders=2)
     read_file(NodeExcelData , 'NodeLostLoadCost', [0, 1, 2],tab_file_path,  "Node", skipheaders=2)
     read_file(NodeExcelData , 'HydroGenMaxAnnualProduction', [0, 1],tab_file_path,  "Node", skipheaders=2)
+    read_file(filepath, 'Node.xlsx', 'Latitude', [0, 1], tab_file_path = tab_file_path)
+    read_file(filepath, 'Node.xlsx', 'Longitude', [0, 1], tab_file_path = tab_file_path)
 
     #Reading Season
     GeneralExcelData = pd.read_excel(filepath + "/General.xlsx", sheet_name=None)

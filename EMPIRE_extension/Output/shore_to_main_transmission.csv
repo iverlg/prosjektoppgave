@@ -1,39 +1,49 @@
 ﻿newOnshoreNode,toNode,dist
 Moray Firth-Great Brit.,Great Brit.,650.6120071051278
 Firth of Forth-Great Brit.,Great Brit.,418.0043052531416
-Dogger Bank-Great Brit.,Great Brit.,182.094728303378
+Dogger Bank-Great Brit.,Great Brit.,182.09472830337802
 Hornsea-Great Brit.,Great Brit.,171.15859288274544
 Outer Dowsing-Great Brit.,Great Brit.,143.1069916112681
 Norfolk-Great Brit.,Great Brit.,201.17190928478013
-East Anglia-Great Brit.,Great Brit.,206.348993778902
-Borssele-Belgium,Belgium,123.35742168519816
+East Anglia-Great Brit.,Great Brit.,206.34899377890196
+Borssele-Belgium,Belgium,123.35742168519815
 Borssele-Netherlands,Netherlands,137.71579876907785
 Hollandsee Kust-Netherlands,Netherlands,75.60285071485382
 Helgoländer Bucht-Netherlands,Netherlands,171.72087441350126
 Helgoländer Bucht-Germany,Germany,395.27011260231984
 Nordsøen-Denmark,Denmark,68.15128436846896
-Energyhub EU-NO2,NO2,118.70275050987112
-Energyhub EU-Great Brit.,Great Brit.,188.95755098461487
-Energyhub EU-Denmark,Denmark,98.4840232470768
-Energyhub EU-Netherlands,Netherlands,157.95776121650258
-Energyhub EU-Belgium,Belgium,88.05957242600782
 Nordvest A-NO4,NO4,336.6431749266357
 Nordvest C-NO3,NO3,143.12431466122328
 Vestavind A-NO3,NO3,324.9535511194523
 Sønnavind A-NO2,NO2,120.88524366949542
-Sørvest C-NO2,NO2,107.44024975929156
-Nordvest B-NO3,NO3,133.687073513209
+Sørvest C-NO2,NO2,107.44024975929155
+Nordvest B-NO3,NO3,133.68707351320901
 Vestavind F-NO2,NO2,144.2276627639124
-Sørvest E-NO2,NO2,107.3599635299112
+Sørvest E-NO2,NO2,107.35996352991121
 Sørvest A-NO2,NO2,109.64451619148544
-Vestavind B-NO3,NO3,104.410504200786
+Vestavind B-NO3,NO3,389.6550558907025
 Vestavind C-NO5,NO5,142.3043299341497
 Vestavind D-NO5,NO5,85.55863984855614
-Sørvest F-NO2,NO2,114.99203826657188
+Sørvest F-NO2,NO2,114.99203826657187
 Sørvest B-NO2,NO2,107.87882209876612
 Nordavind B-NO4,NO4,524.2359736862409
 Nordavind A-NO4,NO4,595.1396468659059
-Nordavind D-NO4,NO4,248.9903449257036
+Nordavind D-NO4,NO4,248.99034492570357
 Nordavind C-NO4,NO4,332.3025786439569
 Vestavind E-NO2,NO2,144.2276627639124
 Sørvest D-NO2,NO2,115.10583702613548
+Energyhub EU-NO2,NO2,118.70275050987111
+Energyhub EU-Great Brit.,Great Brit.,188.95755098461487
+Energyhub EU-Denmark,Denmark,98.4840232470768
+Energyhub EU-Netherlands,Netherlands,157.95776121650258
+Energyhub EU-Belgium,Belgium,88.05957242600782
+Energyhub North-NO2,NO2,144.2276627639124
+Energyhub North-Great Brit.,Great Brit.,559.7448562831624
+Energyhub North-Denmark,Denmark,92.83900527245264
+Energyhub North-Netherlands,Netherlands,141.03044785201766
+Energyhub North-Belgium,Belgium,123.50853136800364
+Energyhub Central-NO2,NO2,115.0837373511682
+Energyhub Central-Great Brit.,Great Brit.,209.90870842172012
+Energyhub Central-Denmark,Denmark,71.49974473881724
+Energyhub Central-Netherlands,Netherlands,141.00671693418028
+Energyhub Central-Belgium,Belgium,84.80659785418742
