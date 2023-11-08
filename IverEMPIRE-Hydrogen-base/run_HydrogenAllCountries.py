@@ -10,6 +10,10 @@ from scenario_random import generate_random_scenario
 ##USER##
 ########
 
+#########################################################################
+## NOTE: Hydrogen version not working as intended -- CO2Cap not strict ##
+#########################################################################
+
 USE_TEMP_DIR = True #True/False
 temp_dir = './'
 version = 'hydrogenAllCountries'
