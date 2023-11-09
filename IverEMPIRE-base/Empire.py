@@ -963,18 +963,6 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
             value(sum(instance.sceProbab[w]*instance.seasScale[s]*((1 - instance.lineEfficiency[n1,n2])*instance.transmissionOperational[n1,n2,h,i,w] + (1 - instance.lineEfficiency[n2,n1])*instance.transmissionOperational[n2,n1,h,i,w])/1000 for (s,h) in instance.HoursOfSeason for w in instance.Scenario))])
     f.close()
 
-    f = open(result_file_path + "/" + 'results_output_curtailed_prod.csv', 'w', newline='')
-    writer = csv.writer(f)
-    writer.writerow(["Node","RESGeneratorType","Period","ExpectedAnnualCurtailment_GWh"])
-    for t in instance.Technology:
-        if t == 'Hydro_ror' or t == 'Wind_onshr' or t == 'Wind_offshr' or t == 'Solar':
-            for (n,g) in instance.GeneratorsOfNode:
-                if (t,g) in instance.GeneratorsOfTechnology: 
-                    for i in instance.PeriodActive:
-                        writer.writerow([n,g,inv_per[int(i-1)], 
-                        value(sum(instance.sceProbab[w]*instance.seasScale[s]*(instance.genCapAvail[n,g,h,w,i]*instance.genInstalledCap[n,g,i] - instance.genOperational[n,g,h,i,w])/1000 for w in instance.Scenario for (s,h) in instance.HoursOfSeason))])
-    f.close()
-
     f = open(result_file_path + "/" + 'results_output_EuropePlot.csv', 'w', newline='')
     writer = csv.writer(f)
     writer.writerow(["Period","genInstalledCap_MW"])
@@ -1082,6 +1070,25 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
     for n in instance.OffshoreEnergyHubs:
         for i in instance.PeriodActive:
             writer.writerow([n, inv_per[i-1], value(instance.offshoreConvInvCap[n,i]), value(instance.offshoreConvInstalledCap[n,i])])
+    f.close()
+
+    # GD extended version
+    f = open(result_file_path + "/" + 'results_output_curtailed_prod.csv', 'w', newline='')
+    writer = csv.writer(f)
+    writer.writerow(["Node","RESGeneratorType","Period","ExpectedAnnualCurtailment_GWh", "Expected total available power_GWh", "Expected annual curtailment ratio of total capacity_%"])
+    for t in instance.Technology:
+        if t == 'Hydro_ror' or t == 'Wind_onshr' or t == 'Wind_offshr' or t == 'Solar':
+            for (n,g) in instance.GeneratorsOfNode:
+                if (t,g) in instance.GeneratorsOfTechnology: 
+                    for i in instance.PeriodActive:
+                        curtailedPower = value(sum(instance.sceProbab[w]*instance.seasScale[s]*(instance.genCapAvail[n,g,h,w,i]*instance.genInstalledCap[n,g,i] - instance.genOperational[n,g,h,i,w])/1000 for w in instance.Scenario for (s,h) in instance.HoursOfSeason))
+                        totalPowerProduction = value(sum(instance.sceProbab[w]*instance.seasScale[s]*(instance.genCapAvail[n,g,h,w,i]*instance.genInstalledCap[n,g,i])/1000 for w in instance.Scenario for (s,h) in instance.HoursOfSeason))
+                        row = [n,g,inv_per[int(i-1)], curtailedPower, totalPowerProduction]
+                        if totalPowerProduction > 0:
+                            row.append(curtailedPower/totalPowerProduction*100)
+                        else:
+                            row.append(0)
+                        writer.writerow(row)
     f.close()
 
     f = open(result_file_path + "/" + 'results_output_transmission_operational.csv', 'w', newline='')
