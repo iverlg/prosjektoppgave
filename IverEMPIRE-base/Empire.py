@@ -1077,7 +1077,7 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
     writer = csv.writer(f)
     writer.writerow(["Node","RESGeneratorType","Period","ExpectedAnnualCurtailment_GWh", "Expected total available power_GWh", "Expected annual curtailment ratio of total capacity_%"])
     for t in instance.Technology:
-        if t == 'Hydro_ror' or t == 'Wind_onshr' or t == 'Wind_offshr' or t == 'Solar':
+        if t == 'Hydro_ror' or t == 'Wind_onshr' or t == 'Wind_offshr_grounded' or t == 'Wind_offshr_floating' or t == 'Solar':
             for (n,g) in instance.GeneratorsOfNode:
                 if (t,g) in instance.GeneratorsOfTechnology: 
                     for i in instance.PeriodActive:

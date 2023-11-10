@@ -341,51 +341,51 @@ Sørvest B,Energyhub Central,148.12459324150845,HVDC_Cable
 Vestavind E,Energyhub Central,350.43293683148016,HVDC_Cable
 Sørvest D,Energyhub Central,58.7656434244041,HVDC_Cable
 Energyhub North,Energyhub Central,293.6782125372154,HVDC_Cable
-Moray Firth,Great Brit.,20.780646036182517,HVDC_OffshoreToOnshore
-Firth of Forth,Great Brit.,35.56680378770196,HVDC_OffshoreToOnshore
-Dogger Bank,Great Brit.,180.20559841990445,HVDC_OffshoreToOnshore
-Hornsea,Great Brit.,107.98594881868662,HVDC_OffshoreToOnshore
-Outer Dowsing,Great Brit.,37.875607407291625,HVDC_OffshoreToOnshore
-Norfolk,Great Brit.,33.28577624294245,HVDC_OffshoreToOnshore
-East Anglia,Great Brit.,31.01042755422096,HVDC_OffshoreToOnshore
-Borssele,Belgium,67.8393559409985,HVDC_OffshoreToOnshore
-Borssele,Netherlands,44.04888305128017,HVDC_OffshoreToOnshore
-Hollandsee Kust,Netherlands,36.43067833876378,HVDC_OffshoreToOnshore
-Helgoländer Bucht,Netherlands,96.75377376131728,HVDC_OffshoreToOnshore
-Helgoländer Bucht,Germany,48.34222225573601,HVDC_OffshoreToOnshore
-Nordsøen,Denmark,68.6921804432666,HVDC_OffshoreToOnshore
-Nordvest A,NO4,99.99295484452712,HVDC_OffshoreToOnshore
-Nordvest C,NO3,69.06891345949673,HVDC_OffshoreToOnshore
-Vestavind A,NO3,61.6279808811496,HVDC_OffshoreToOnshore
-Sønnavind A,NO2,50.80259785131871,HVDC_OffshoreToOnshore
-Sørvest C,NO2,199.5026697213464,HVDC_OffshoreToOnshore
-Nordvest B,NO3,112.4794802771582,HVDC_OffshoreToOnshore
-Vestavind F,NO2,20.82364874263417,HVDC_OffshoreToOnshore
-Sørvest E,NO2,129.32719560312736,HVDC_OffshoreToOnshore
-Sørvest A,NO2,147.33599961469636,HVDC_OffshoreToOnshore
-Vestavind B,NO3,49.31277127253777,HVDC_OffshoreToOnshore
-Vestavind C,NO5,27.932524933533447,HVDC_OffshoreToOnshore
-Vestavind D,NO5,29.04151979196349,HVDC_OffshoreToOnshore
-Sørvest F,NO2,178.58740175332332,HVDC_OffshoreToOnshore
-Sørvest B,NO2,195.25165199493097,HVDC_OffshoreToOnshore
-Nordavind B,NO4,74.01604039984466,HVDC_OffshoreToOnshore
-Nordavind A,NO4,82.89025447125819,HVDC_OffshoreToOnshore
-Nordavind D,NO4,135.05754248151626,HVDC_OffshoreToOnshore
-Nordavind C,NO4,139.91399677126037,HVDC_OffshoreToOnshore
-Vestavind E,NO2,61.19642846408296,HVDC_OffshoreToOnshore
-Sørvest D,NO2,250.69047026888217,HVDC_OffshoreToOnshore
-Energyhub EU,NO2,341.6498082043417,HVDC_OffshoreToOnshore
-Energyhub EU,Great Brit.,377.72177644656153,HVDC_OffshoreToOnshore
-Energyhub EU,Denmark,165.2764772792744,HVDC_OffshoreToOnshore
-Energyhub EU,Netherlands,180.5922470422403,HVDC_OffshoreToOnshore
-Energyhub EU,Belgium,410.6120272060444,HVDC_OffshoreToOnshore
-Energyhub North,NO2,223.86555334677212,HVDC_OffshoreToOnshore
-Energyhub North,Great Brit.,218.62740279824453,HVDC_OffshoreToOnshore
-Energyhub North,Denmark,453.033194015572,HVDC_OffshoreToOnshore
-Energyhub North,Netherlands,621.191248154473,HVDC_OffshoreToOnshore
-Energyhub North,Belgium,813.9152045409429,HVDC_OffshoreToOnshore
-Energyhub Central,NO2,309.2785170516148,HVDC_OffshoreToOnshore
-Energyhub Central,Great Brit.,308.9928221919191,HVDC_OffshoreToOnshore
-Energyhub Central,Denmark,305.970500058543,HVDC_OffshoreToOnshore
-Energyhub Central,Netherlands,327.5645320266778,HVDC_OffshoreToOnshore
-Energyhub Central,Belgium,526.9857228615839,HVDC_OffshoreToOnshore
+Moray Firth,Great Brit.,641.9820740273129,HVDC_OffshoreToOnshore
+Firth of Forth,Great Brit.,427.5524972110534,HVDC_OffshoreToOnshore
+Dogger Bank,Great Brit.,347.6073008695472,HVDC_OffshoreToOnshore
+Hornsea,Great Brit.,250.81670164375177,HVDC_OffshoreToOnshore
+Outer Dowsing,Great Brit.,166.8913683666211,HVDC_OffshoreToOnshore
+Norfolk,Great Brit.,238.838737371671,HVDC_OffshoreToOnshore
+East Anglia,Great Brit.,238.3697686257503,HVDC_OffshoreToOnshore
+Borssele,Belgium,173.10197759762193,HVDC_OffshoreToOnshore
+Borssele,Netherlands,165.9170767161929,HVDC_OffshoreToOnshore
+Hollandsee Kust,Netherlands,113.11214877482412,HVDC_OffshoreToOnshore
+Helgoländer Bucht,Netherlands,271.92769663286043,HVDC_OffshoreToOnshore
+Helgoländer Bucht,Germany,439.0590203629367,HVDC_OffshoreToOnshore
+Nordsøen,Denmark,138.73555195069827,HVDC_OffshoreToOnshore
+Nordvest A,NO4,393.99988275245096,HVDC_OffshoreToOnshore
+Nordvest C,NO3,212.4806837904705,HVDC_OffshoreToOnshore
+Vestavind A,NO3,379.504980588766,HVDC_OffshoreToOnshore
+Sønnavind A,NO2,173.0632840341113,HVDC_OffshoreToOnshore
+Sørvest C,NO2,308.5528656504309,HVDC_OffshoreToOnshore
+Nordvest B,NO3,244.98127312163925,HVDC_OffshoreToOnshore
+Vestavind F,NO2,167.86310235010006,HVDC_OffshoreToOnshore
+Sørvest E,NO2,237.2263585302841,HVDC_OffshoreToOnshore
+Sørvest A,NO2,259.766776866508,HVDC_OffshoreToOnshore
+Vestavind B,NO3,434.8483153551968,HVDC_OffshoreToOnshore
+Vestavind C,NO5,141.64963293010976,HVDC_OffshoreToOnshore
+Vestavind D,NO5,113.30104294613892,HVDC_OffshoreToOnshore
+Sørvest F,NO2,292.9543607052769,HVDC_OffshoreToOnshore
+Sørvest B,NO2,305.9965572083401,HVDC_OffshoreToOnshore
+Nordavind B,NO4,580.2164686132563,HVDC_OffshoreToOnshore
+Nordavind A,NO4,678.0156351888318,HVDC_OffshoreToOnshore
+Nordavind D,NO4,369.0634268639256,HVDC_OffshoreToOnshore
+Nordavind C,NO4,411.40205132293386,HVDC_OffshoreToOnshore
+Vestavind E,NO2,203.18986420807224,HVDC_OffshoreToOnshore
+Sørvest D,NO2,361.37576697569807,HVDC_OffshoreToOnshore
+Energyhub EU,NO2,462.4264266319008,HVDC_OffshoreToOnshore
+Energyhub EU,Great Brit.,542.5008724108989,HVDC_OffshoreToOnshore
+Energyhub EU,Denmark,259.821659366145,HVDC_OffshoreToOnshore
+Energyhub EU,Netherlands,333.8272481399706,HVDC_OffshoreToOnshore
+Energyhub EU,Belgium,501.0442489125625,HVDC_OffshoreToOnshore
+Energyhub North,NO2,355.1995244655156,HVDC_OffshoreToOnshore
+Energyhub North,Great Brit.,681.4007493220496,HVDC_OffshoreToOnshore
+Energyhub North,Denmark,542.9817013007425,HVDC_OffshoreToOnshore
+Energyhub North,Netherlands,763.7116776142673,HVDC_OffshoreToOnshore
+Energyhub North,Belgium,902.7949564988984,HVDC_OffshoreToOnshore
+Energyhub Central,NO2,420.10514029515343,HVDC_OffshoreToOnshore
+Energyhub Central,Great Brit.,491.82554938651657,HVDC_OffshoreToOnshore
+Energyhub Central,Denmark,376.9704590396334,HVDC_OffshoreToOnshore
+Energyhub Central,Netherlands,470.1656603308941,HVDC_OffshoreToOnshore
+Energyhub Central,Belgium,614.0848315110735,HVDC_OffshoreToOnshore
