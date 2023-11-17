@@ -10,8 +10,8 @@ lengthRegSeason : 168
 discountrate : 0.05
 WACC : 0.05
 solver : "Gurobi" # "Gurobi"  # #"CPLEX"
-scenariogeneration : True #False
-fix_sample : False #True
+scenariogeneration : False #True
+fix_sample : True #False
 EMISSION_CAP : True #False
 IAMC_PRINT : True #False
 WRITE_LP : False #True
