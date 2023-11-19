@@ -1261,7 +1261,7 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
             for (s,h) in instance.HoursOfSeason:
                 for n in instance.Node:
                     # IG
-                    if n in instance.OffshoreNode:
+                    if n in instance.OffshoreNode or n in energyHubList:
                         continue
                     f = row_write(f, dict_countries_reversed[str(n)], "Price|Secondary Energy|Electricity", "US$2010/GJ", seasonhours[h-1], \
                         [value(instance.dual[instance.FlowBalance[n,h,i,w]]/(GJperMWh*instance.operationalDiscountrate*instance.seasScale[s]*instance.sceProbab[w])) for i in instance.PeriodActive], Scenario+"|"+str(w)+str(s))
@@ -1276,7 +1276,7 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
                 f = row_write(f, "Europe", "CO2 Emmissions|Electricity|"+dict_generators[str(g)], "tons/MWh", "Year", [value(instance.genCO2TypeFactor[g]*(GJperMWh/instance.genEfficiency[g,i])) for i in instance.PeriodActive]) #CO2 factor per generator type
         for (n,g) in instance.GeneratorsOfNode:
             # IG
-            if n in instance.OffshoreNode:
+            if n in instance.OffshoreNode or n in energyHubList:
                 continue
             f = row_write(f, dict_countries_reversed[str(n)], "Capacity|Electricity|"+dict_generators[str(g)], "GW", "Year", [value(instance.genInstalledCap[n,g,i]*GWperMW) for i in instance.PeriodActive]) #Installed generator capacity per country and type
         
