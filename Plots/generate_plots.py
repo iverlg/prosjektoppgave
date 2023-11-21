@@ -175,7 +175,7 @@ def plot_wind_prod_NO(case, _df):
     #plt.legend(loc="lower center", bbox_to_anchor=(0.5, -0.3), ncol=5, fontsize=10)
     plt.margins(x=0)
 
-    y_max = 70
+    y_max = 120
     plt.ylim(0, y_max)
 
     # Plot capacity 2050 
@@ -230,14 +230,14 @@ def plot_offshore_converter_cap(case, _df):
     #plt.legend(loc="lower center", bbox_to_anchor=(0.5, -0.3), ncol=5, fontsize=10)
     plt.margins(x=0)
 
-    y_max = 200
+    y_max = 220
     plt.ylim(0, y_max)
     
     # Plot capacity 2050 
     cap_2050 = sum([cap[5] for cap in installed_caps_GW]) # Total trans cap in GW
 
     plt.axvline(x = 5, color = 'black', ls="--")
-    plt.text(x=2.5, y=y_max*0.9, s=f"Capacity in 2050: {round(cap_2050, 1)} GW", verticalalignment='top', fontsize=14)
+    plt.text(x=2.5, y=y_max*0.95, s=f"Capacity in 2050: {round(cap_2050, 1)} GW", verticalalignment='top', fontsize=14)
     plt.savefig(f"Plots/SavedFigs/hub_capacity_{case}_no_legend", bbox_inches="tight")
 
 # Plot transmission lines Europe
@@ -249,11 +249,11 @@ def plot_transmission_lines_Europe(case, _df):
     # Remove 0-connections
     df = df[df["transmissionInstalledCap_MW"] > 1].reset_index(drop=True)
     
-    custom_lines = [Line2D([0], [0], color='black', linewidth=0.5),
-                Line2D([0], [0], color='black', linewidth=2.5),
-                Line2D([0], [0], color='black', linewidth=5),
-                Line2D([0], [0], color='black', linewidth=7.5),
-                Line2D([0], [0], color='black', linewidth=10)]
+    custom_lines = [Line2D([0], [0], color='black', linewidth=1/3),
+                Line2D([0], [0], color='black', linewidth=5/3),
+                Line2D([0], [0], color='black', linewidth=10/3),
+                Line2D([0], [0], color='black', linewidth=20/3),
+                Line2D([0], [0], color='black', linewidth=30/3)]
     fig = plt.figure(figsize=(20,20))
     ax = plt.axes(projection=ccrs.Orthographic())
     ax.add_feature(cartopy.feature.BORDERS.with_scale('50m'), alpha=.5)
@@ -271,7 +271,7 @@ def plot_transmission_lines_Europe(case, _df):
         plt.plot([LATLON[LATLON["Node"] == df_row["BetweenNode"]]["Longitude"].values[0], LATLON[LATLON["Node"] == df_row["AndNode"]]["Longitude"].values[0]],\
                 [LATLON[LATLON["Node"] == df_row["BetweenNode"]]["Latitude"].values[0], LATLON[LATLON["Node"] == df_row["AndNode"]]["Latitude"].values[0]],
                     color = 'black',
-                    linewidth = df_row["transmissionInstalledCap_MW"]/2000,
+                    linewidth = df_row["transmissionInstalledCap_MW"]/3000,
                     transform=ccrs.Geodetic())
         
     # Plot nodes (only those in use/with transmission capacity)
@@ -286,7 +286,7 @@ def plot_transmission_lines_Europe(case, _df):
         )
 
     ax.set_extent([-7, 17, 43, 72], crs=ccrs.PlateCarree())
-    ax.legend(custom_lines, ['  1 GW', '  5 GW', '  10 GW','  20 GW'], borderpad=1, labelspacing=1, handlelength=7, loc="upper left", fontsize=20)
+    ax.legend(custom_lines, ['  1 GW', '  5 GW', '  10 GW','  20 GW','  30 GW'], borderpad=1, labelspacing=1, handlelength=7, loc="upper left", fontsize=20)
     gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True)
     gl.top_labels = False
     gl.right_labels = False
@@ -309,11 +309,11 @@ def plot_transmission_lines_NS(case, _df):
     # Remove 0-connections
     df = df[df["transmissionInstalledCap_MW"] > 1].reset_index(drop=True)
     
-    custom_lines = [Line2D([0], [0], color='black', linewidth=0.5),
-                Line2D([0], [0], color='black', linewidth=2.5),
-                Line2D([0], [0], color='black', linewidth=5),
-                Line2D([0], [0], color='black', linewidth=7.5),
-                Line2D([0], [0], color='black', linewidth=10)]
+    custom_lines = [Line2D([0], [0], color='black', linewidth=1/3),
+                Line2D([0], [0], color='black', linewidth=5/3),
+                Line2D([0], [0], color='black', linewidth=10/3),
+                Line2D([0], [0], color='black', linewidth=20/3),
+                Line2D([0], [0], color='black', linewidth=30/3)]
     fig = plt.figure(figsize=(20,20))
     ax = plt.axes(projection=ccrs.Orthographic())
     ax.add_feature(cartopy.feature.BORDERS.with_scale('50m'), alpha=.5)
@@ -331,7 +331,7 @@ def plot_transmission_lines_NS(case, _df):
         plt.plot([LATLON[LATLON["Node"] == df_row["BetweenNode"]]["Longitude"].values[0], LATLON[LATLON["Node"] == df_row["AndNode"]]["Longitude"].values[0]],\
                 [LATLON[LATLON["Node"] == df_row["BetweenNode"]]["Latitude"].values[0], LATLON[LATLON["Node"] == df_row["AndNode"]]["Latitude"].values[0]],
                     color = 'black',
-                    linewidth = df_row["transmissionInstalledCap_MW"]/2000,
+                    linewidth = df_row["transmissionInstalledCap_MW"]/3000,
                     transform=ccrs.Geodetic())
         
     # Plot nodes (only those in use/with transmission capacity)
@@ -346,7 +346,7 @@ def plot_transmission_lines_NS(case, _df):
         )
         
     ax.set_extent([-5, 17, 50, 73], crs=ccrs.PlateCarree())
-    ax.legend(custom_lines, ['  1 GW', '  5 GW', '  10 GW','  20 GW'], borderpad=1, labelspacing=1, handlelength=7, loc="upper left", fontsize=20)
+    ax.legend(custom_lines, ['  1 GW', '  5 GW', '  10 GW','  20 GW','  30 GW'], borderpad=1, labelspacing=1, handlelength=7, loc="upper left", fontsize=20)
     gl = ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True)
     gl.top_labels = False
     gl.right_labels = False
@@ -373,7 +373,7 @@ def main():
     for func, file in PLOT_TO_FILE.items():
         DF_BY_CASES = dict({})
         for case in CASES:
-            _df = pd.read_csv(f'Plots/Results/{case}/{file}')
+            _df = pd.read_csv(f'Plots/new/{case}/{file}')
             DF_BY_CASES[case] = _df
         for case, _df in DF_BY_CASES.items():
             func(case, _df)
