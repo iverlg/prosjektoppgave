@@ -1,4 +1,9 @@
-### Pipeline for generating all plots for given case(s)
+### Pipeline for generating plots for given case(s)
+### Plots generated: EnergyMix, HubCapacity, Transmission (Europe/NS) and OWCapacity (NO/NS)
+
+### Legends can be generated in 'legends.ipynb'
+### Sensitivities on OW capacity in 'ow_sensitivity.ipynb'
+### Rotational mass study in 'rotational_mass.ipynb'
 
 import cartopy
 import cartopy.crs as ccrs
@@ -13,15 +18,15 @@ from cycler import cycler
 from matplotlib.lines import Line2D
 
 ### DEFINE CASES HERE ###
-CASES = ["base", "NOgrid"]
+CASES = ["Base", "NOgrid", "NoHubs", "NoHubsNOgrid", "OnlyCentral", "OnlyEU", "OnlyNorth"]
 
-# Import lat/lon of all nodes
+# Import lat/lon of all nodes to be used for transmission grid plots
 LATLON = pd.read_csv("EMPIRE_extension/Output/nodes.csv").drop(columns=["geometry"])
 LATLON["Node"] = LATLON["Node"].apply(lambda s: s.replace(" ", ""))
 
 ENERGY_HUBS = [hub.replace(" ", "") for hub in ENERGY_HUBS]
 
-# Plot of total generation
+# Plot of total generation / energy mix
 def plot_gen_by_source(case, _df):
     print(f"Generation by source for case: {case}")
     
@@ -75,7 +80,7 @@ def plot_gen_by_source(case, _df):
     plt.axvline(x = 5, color = 'black', ls="--")
     plt.text(x=1.9, y=y_max*0.95, s=f"Total capacity in 2050: {round(prod_2050, 1)} TW", verticalalignment='top', fontsize=14)
     plt.text(x=1.9, y=y_max*0.88, s=f"OW capacity in NS 2050: {round(NS_OW_prod_2050)} GW", verticalalignment='top', fontsize=14)
-    plt.savefig(f"Plots/SavedFigs/gen_by_source_{case}_no_legend", bbox_inches="tight")
+    plt.savefig(f"Plots/SavedFigs/EnergyMix/{case}", bbox_inches='tight')
 
 # Plot of wind farm capacity in North Sea
 def plot_wind_prod(case, _df):
@@ -130,7 +135,7 @@ def plot_wind_prod(case, _df):
 
     plt.axvline(x = 5, color = 'black', ls="--")
     plt.text(x=2.4, y=y_max*0.9, s=f"Capacity in 2050: {round(prod_2050, 1)} GW", verticalalignment='top', fontsize=14)
-    plt.savefig(f"Plots/SavedFigs/wind_cap_in_NS_{case}_no_legend", bbox_inches="tight")
+    plt.savefig(f"Plots/SavedFigs/OWCapacity-NS/{case}", bbox_inches='tight')
 
 # Plot wind farm capacity by NO wind farms
 def plot_wind_prod_NO(case, _df):
@@ -183,7 +188,7 @@ def plot_wind_prod_NO(case, _df):
     
     plt.axvline(x = 5, color = 'black', ls="--")
     plt.text(x=2.5, y=y_max*0.9, s=f"Capacity in 2050: {round(cap_2050, 1)} GW", verticalalignment='top', fontsize=14)
-    plt.savefig(f"Plots/SavedFigs/wind_cap_in_NO_{case}_no_legend", bbox_inches="tight")
+    plt.savefig(f"Plots/SavedFigs/OWCapacity-NO/{case}", bbox_inches='tight')
 
 # Plot offshore converter (hub) capacity 
 def plot_offshore_converter_cap(case, _df):
@@ -238,7 +243,7 @@ def plot_offshore_converter_cap(case, _df):
 
     plt.axvline(x = 5, color = 'black', ls="--")
     plt.text(x=2.5, y=y_max*0.95, s=f"Capacity in 2050: {round(cap_2050, 1)} GW", verticalalignment='top', fontsize=14)
-    plt.savefig(f"Plots/SavedFigs/hub_capacity_{case}_no_legend", bbox_inches="tight")
+    plt.savefig(f"Plots/SavedFigs/HubCapacity/{case}", bbox_inches='tight')
 
 # Plot transmission lines Europe
 def plot_transmission_lines_Europe(case, _df):
@@ -298,7 +303,7 @@ def plot_transmission_lines_Europe(case, _df):
     gl.yformatter = LATITUDE_FORMATTER
     gl.xlabel_style = {'size': 20}
     gl.ylabel_style = {'size': 20}
-    plt.savefig(f"Plots/SavedFigs/trans_lines_Europe_{case}", bbox_inches='tight')
+    plt.savefig(f"Plots/SavedFigs/Transmission-Europe/{case}", bbox_inches='tight')
 
 # Plot transmission capacity in North Sea
 def plot_transmission_lines_NS(case, _df):
@@ -358,7 +363,7 @@ def plot_transmission_lines_NS(case, _df):
     gl.yformatter = LATITUDE_FORMATTER
     gl.xlabel_style = {'size': 20}
     gl.ylabel_style = {'size': 20}
-    plt.savefig(f"Plots/SavedFigs/trans_lines_NS_{case}", bbox_inches='tight')
+    plt.savefig(f"Plots/SavedFigs/Transmission-NS/{case}", bbox_inches='tight')
 
 PLOT_TO_FILE = {
     plot_gen_by_source: 'results_output_gen.csv',
@@ -373,7 +378,7 @@ def main():
     for func, file in PLOT_TO_FILE.items():
         DF_BY_CASES = dict({})
         for case in CASES:
-            _df = pd.read_csv(f'Plots/new/{case}/{file}')
+            _df = pd.read_csv(f'Plots/Results/{case}/{file}')
             DF_BY_CASES[case] = _df
         for case, _df in DF_BY_CASES.items():
             func(case, _df)
