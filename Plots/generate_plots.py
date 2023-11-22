@@ -4,6 +4,7 @@
 ### Legends can be generated in 'legends.ipynb'
 ### Sensitivities on OW capacity in 'ow_sensitivity.ipynb'
 ### Rotational mass study in 'rotational_mass.ipynb'
+### Map of offshore nodes in 'ow_locations.ipynb'
 
 import cartopy
 import cartopy.crs as ccrs
