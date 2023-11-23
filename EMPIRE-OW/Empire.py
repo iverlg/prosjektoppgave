@@ -1092,18 +1092,6 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
                         writer.writerow(row)
     f.close()
 
-    f = open(result_file_path + "/" + 'results_output_transmission_operational.csv', 'w', newline='')
-    writer = csv.writer(f)
-    writer.writerow(["FromNode","ToNode","Period","Season","Scenario","Hour","TransmissionRecieved_MW","Losses_MW"])
-    for (n1,n2) in instance.DirectionalLink:
-        for i in instance.PeriodActive:
-            for (s,h) in instance.HoursOfSeason:
-                for w in instance.Scenario:
-                    writer.writerow([n1,n2,inv_per[int(i-1)],s,w,h, 
-                    value(instance.lineEfficiency[n1,n2]*instance.transmissionOperational[n1,n2,h,i,w]), 
-                    value((1 - instance.lineEfficiency[n1,n2])*instance.transmissionOperational[n1,n2,h,i,w])])
-    f.close()
-
     f = open(result_file_path + "/" + 'results_output_Operational.csv', 'w', newline='')
     writer = csv.writer(f)
     my_header = ["Node","Period","Scenario","Season","Hour","AllGen_MW","Load_MW","Net_load_MW"]
@@ -1137,6 +1125,18 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
                         value(instance.dual[instance.FlowBalance[n,h,i,w]]/(instance.operationalDiscountrate*instance.seasScale[s]*instance.sceProbab[w])),
                         value(sum(instance.genOperational[n,g,h,i,w]*instance.genCO2TypeFactor[g]*(3.6/instance.genEfficiency[g,i]) for g in instance.Generator if (n,g) in instance.GeneratorsOfNode)/sum(instance.genOperational[n,g,h,i,w] for g in instance.Generator if (n,g) in instance.GeneratorsOfNode) if value(sum(instance.genOperational[n,g,h,i,w] for g in instance.Generator if (n,g) in instance.GeneratorsOfNode)) != 0 else 0)])
                     writer.writerow(my_string)
+    f.close()
+
+    f = open(result_file_path + "/" + 'results_output_transmission_operational.csv', 'w', newline='')
+    writer = csv.writer(f)
+    writer.writerow(["FromNode","ToNode","Period","Season","Scenario","Hour","TransmissionRecieved_MW","Losses_MW"])
+    for (n1,n2) in instance.DirectionalLink:
+        for i in instance.PeriodActive:
+            for (s,h) in instance.HoursOfSeason:
+                for w in instance.Scenario:
+                    writer.writerow([n1,n2,inv_per[int(i-1)],s,w,h, 
+                    value(instance.lineEfficiency[n1,n2]*instance.transmissionOperational[n1,n2,h,i,w]), 
+                    value((1 - instance.lineEfficiency[n1,n2])*instance.transmissionOperational[n1,n2,h,i,w])])
     f.close()
 
     if IAMC_PRINT:
