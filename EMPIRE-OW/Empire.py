@@ -686,11 +686,12 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
 
     # IG: This rule restricts the combined floating + grounded capacity to surpass the area capacity (default based on 5 MW/km2) 
     def area_cap_rule(model, n, i):
-        for n in model.OffshoreNode:
-            return sum(model.genRefInitCap[n,g] for g in model.Generator if (n, g) in model.GeneratorsOfNode)\
-                    + sum(model.genInstalledCap[n, g, i] for g in model.Generator if (n, g) in model.GeneratorsOfNode)\
-                    <= model.areaMaxInstalledCap[n]
-    model.area_cap_rule = Constraint(model.Node, model.PeriodActive, rule=area_cap_rule)
+        if n in model.OffshoreNode:
+            return sum(model.genInstalledCap[n, g, i] for g in model.Generator if (n, g) in model.GeneratorsOfNode)\
+						<= model.areaMaxInstalledCap[n]
+        else:
+            return Constraint.Skip
+    model.area_cap = Constraint(model.Node, model.PeriodActive, rule=area_cap_rule)
 
     #################################################################
 
