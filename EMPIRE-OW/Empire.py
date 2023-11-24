@@ -955,22 +955,13 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
 
     f = open(result_file_path + "/" + 'results_output_transmission.csv', 'w', newline='')
     writer = csv.writer(f)
-    writer.writerow(["BetweenNode","AndNode","Period","transmissionInvCap_MW","transmissionInstalledCap_MW","DiscountedInvestmentCost_EuroPerMW","transmissionExpectedAnnualVolume_GWh","ExpectedAnnualLosses_GWh"])
+    writer.writerow(["BetweenNode","AndNode","Period","transmissionInvCap_MW","transmissionInstalledCap_MW","DiscountedInvestmentCost_Euro","transmissionExpectedAnnualVolume_GWh","ExpectedAnnualLosses_GWh"])
     for (n1,n2) in instance.BidirectionalArc:
         for i in instance.PeriodActive:
             writer.writerow([n1,n2,inv_per[int(i-1)],value(instance.transmissionInvCap[n1,n2,i]),value(instance.transmissionInstalledCap[n1,n2,i]), 
             value(instance.discount_multiplier[i]*instance.transmissionInvCap[n1,n2,i]*instance.transmissionInvCost[n1,n2,i]), 
             value(sum(instance.sceProbab[w]*instance.seasScale[s]*(instance.transmissionOperational[n1,n2,h,i,w]+instance.transmissionOperational[n2,n1,h,i,w])/1000 for (s,h) in instance.HoursOfSeason for w in instance.Scenario)), 
             value(sum(instance.sceProbab[w]*instance.seasScale[s]*((1 - instance.lineEfficiency[n1,n2])*instance.transmissionOperational[n1,n2,h,i,w] + (1 - instance.lineEfficiency[n2,n1])*instance.transmissionOperational[n2,n1,h,i,w])/1000 for (s,h) in instance.HoursOfSeason for w in instance.Scenario))])
-    f.close()
-
-    # GD
-    f = open(result_file_path + "/" + 'results_output_offshoreConverter.csv', 'w', newline='', encoding="utf-8-sig")
-    writer = csv.writer(f)
-    writer.writerow(["Node", 'Period', "Converter invested capacity [MW]", "Converter total capacity [MW]"])
-    for n in instance.OffshoreEnergyHubs:
-        for i in instance.PeriodActive:
-            writer.writerow([n, inv_per[i-1], value(instance.offshoreConvInvCap[n,i]), value(instance.offshoreConvInstalledCap[n,i])])
     f.close()
 
     # GD extended version
@@ -990,6 +981,16 @@ def run_empire(name, tab_file_path, result_file_path, scenariogeneration, scenar
                         else:
                             row.append(0)
                         writer.writerow(row)
+    f.close()
+
+    # GD
+    f = open(result_file_path + "/" + 'results_output_offshoreConverter.csv', 'w', newline='', encoding="utf-8-sig")
+    writer = csv.writer(f)
+    writer.writerow(["Node", 'Period', "Converter invested capacity [MW]", "Converter total capacity [MW]", "DiscountedInvestmentCost_Euro"])
+    for n in instance.OffshoreEnergyHubs:
+        for i in instance.PeriodActive:
+            # IG added last col
+            writer.writerow([n, inv_per[i-1], value(instance.offshoreConvInvCap[n,i]), value(instance.offshoreConvInstalledCap[n,i]), value(instance.discount_multiplier[i] * instance.offshoreConvInvCost[i] * instance.offshoreConvInvCap[n,i])])
     f.close()
 
     f = open(result_file_path + "/" + 'results_output_EuropePlot.csv', 'w', newline='')
