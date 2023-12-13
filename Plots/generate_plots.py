@@ -42,20 +42,19 @@ def plot_gen_by_source(case, _df):
 
     periods = list(df_gen_source["Period"].unique())
 
-    gen_source_sorted_by_cap = list(df_gen_source[df_gen_source["Period"] == "2055-2060"]\
-                              .sort_values(by="genInstalledCap_MW", ascending=False)["GeneratorType"].values)
-        
-    gen_source_displayed = gen_source_sorted_by_cap
+    gen_source_sorted_by_cap = ['Windonshore', 'Solar', 'Bio', 'Nuclear', 'Windoffshoregrounded', 'GasOCGT', 'Hydrorun-of-the-river', 'Hydroregulated', 'GasCCGT', 'Windoffshorefloating', 'Lignite', 'Bio10cofiring', 'Waste', 'Wave', 'Geo', 'Bioexisting', 'Oilexisting', 'Gasexisting', 'Bio10cofiringCCS', 'CoalCCS', 'Coalexisting', 'Liginiteexisting']
+    
+    gen_source_displayed_copy = gen_source_sorted_by_cap
 
     installed_caps_gen = []
-    for gen_source in gen_source_displayed:
+    for gen_source in gen_source_sorted_by_cap:
         cap_by_period = []
         for period in periods:
             cap_by_period.append(df_gen_source[(df_gen_source["GeneratorType"] == gen_source) & (df_gen_source["Period"] == period)]["genInstalledCap_MW"].values[0])
 
         # Remove gen_source that have no capacity (1 MW since some threshold)
         if all(c < 1 for c in cap_by_period):
-            gen_source_displayed.remove(gen_source)
+            gen_source_displayed_copy.remove(gen_source)
         else:
             installed_caps_gen.append(cap_by_period)
 
@@ -63,13 +62,12 @@ def plot_gen_by_source(case, _df):
     period_displayed_gen = [period.split("-")[1] for period in periods]
 
     plt.rcParams.update({'font.size': 14})
-    default_cycler = cycler(color=[TECH_TO_COLOR[tech] for tech in gen_source_displayed])
+    default_cycler = cycler(color=[TECH_TO_COLOR[tech] for tech in gen_source_displayed_copy])
     plt.figure(figsize=(10,6))
     plt.rc('axes', axisbelow=True, prop_cycle=default_cycler)
     plt.grid(linewidth=0.3)
-    plt.stackplot(period_displayed_gen, installed_caps_gen_TW, labels=gen_source_displayed, edgecolor='white', lw=0.7)
+    plt.stackplot(period_displayed_gen, installed_caps_gen_TW, labels=gen_source_displayed_copy, edgecolor='white', lw=0.7)
     plt.ylabel('Generator capacity [TW]')
-    #plt.legend(loc="lower center", bbox_to_anchor=(0.5, -0.3), ncol=5, fontsize=10)
     plt.margins(x=0)
 
     y_max = 6
@@ -78,10 +76,15 @@ def plot_gen_by_source(case, _df):
     # Plot capacity 2050 
     prod_2050 = sum([gen_cap[5] for gen_cap in installed_caps_gen_TW]) # Total gen in TW
 
+    # Align text based on height of peak
+    # prod_by_periods = [sum([gen_cap[i] for gen_cap in installed_caps_gen_TW]) for i in range(8)]
+    # max_prod = max(prod_by_periods)
+
     plt.axvline(x = 5, color = 'black', ls="--")
     plt.text(x=1.9, y=y_max*0.95, s=f"Total capacity in 2050: {round(prod_2050, 1)} TW", verticalalignment='top', fontsize=14)
     plt.text(x=1.9, y=y_max*0.88, s=f"OW capacity in NS 2050: {round(NS_OW_prod_2050)} GW", verticalalignment='top', fontsize=14)
     plt.savefig(f"Plots/SavedFigs/EnergyMix/{case}", bbox_inches='tight')
+
 
 # Plot of wind farm capacity in North Sea
 def plot_wind_prod(case, _df):
