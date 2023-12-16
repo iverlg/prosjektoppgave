@@ -1,4 +1,5 @@
-Github-repo related to the writing of our project thesis "The role of North Seas offshore wind in the European energy mix: An analysis of influencing factors" (December 14th 2023)
+Github-repo related to the writing of our project thesis "
+The role of the North Seas’ offshore wind in the European energy mix: An analysis of influencing factors" (December 14th 2023)
 
 Description of the folder structure:
 * EMPIRE_extension including all expansions done from the existing OpenEMPIRE model to EMPIRE-OW (new module)
